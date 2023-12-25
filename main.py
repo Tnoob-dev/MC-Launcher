@@ -32,7 +32,7 @@ def checkSettings():
 
         # Take last version of MC from ur PC
         # optsMineCfg_file['mc_version'] = get_latest_version()['release']
-        optsMineCfg_file['mc_version'] = '1.20.4'
+        optsMineCfg_file['mc_version'] = '1.20.4' # Use the version that you have in ur PC
 
         # UUID and token Things (for offline purposes don't care)
         namespace = uuid.NAMESPACE_URL
